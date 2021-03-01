@@ -1,0 +1,24 @@
+{
+  "name": "ab-testing-tech-talk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ab-testing-tech-talk",
+  "author": "arathjz",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.8",
+    "gatsby-plugin-sass": "^3.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.32.8"
+  }
+}
