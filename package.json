@@ -15,7 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "clsx": "^1.1.1",
     "gatsby": "^2.32.8",
+    "gatsby-plugin-env-variables": "^2.0.0",
     "gatsby-plugin-sass": "^3.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
