@@ -26,7 +26,8 @@ const IndexPage = () => {
         })}>
           <div>
           <img src={illustrationTwo} alt=""/>
-            <button id="complete-purchase">Read more</button>
+            <button id="read-more" onClick={() => alert('Reading more!')}>Read more</button>
+            <button id="tweet" onClick={() => alert('Tweeting!')}>Tweet</button>
           </div>
         </section>
       </div>
