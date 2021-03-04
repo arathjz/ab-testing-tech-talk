@@ -13,13 +13,13 @@ const IndexPage = () => {
     <main className="container">
       <div className="content">
         <h1>A/B Testing</h1>
-        <section className={clsx('section', {
-          'read-more-bottom': !isMainBranch,
-          'read-more-top': isMainBranch,
-        })}>
+        <section className="section">
           <div>
           <img src={illustrationTwo} alt=""/>
-            <button id="read-more" onClick={() => alert('Reading more!')}>Read more</button>
+            <button id="read-more" className={clsx({
+              'read-more-bottom': !isMainBranch,
+              'read-more-top': isMainBranch,
+            })} onClick={() => alert('Reading more!')}>Read more</button>
             <button id="tweet" onClick={() => alert('Tweeting!')}>Tweet</button>
           </div>
         </section>
